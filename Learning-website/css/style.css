@@ -153,6 +153,12 @@ a:hover{
     transition: .5s;
     font-size: 18px;
 }
+.navBtn{
+    font-size: 18px;
+}
+.adminBtn{
+    font-size: .75rem;
+}
 
 .btn.btn-primary,
 .btn.btn-secondary {
