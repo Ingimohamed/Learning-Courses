@@ -1,10 +1,16 @@
+:root{
+    --mainTextColor:#52565b;
+    --primary: #06BBCC;
+    --light: #F0FBFC;
+    --dark: #181d38; 
+}
 body {
     margin: 0;
     font-family: "Heebo",sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #52565b;
+    color: var(--mainTextColor);
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -15,7 +21,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: "Nunito",sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: #181d38;
+    color: var(--dark);
 }
 .Exclamation_Style{
     font-size: 5rem!important;
@@ -40,69 +46,50 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 	color: white;
 	padding-top: 30px;
 }
-.Nav_text{
-	color: #06bbcc!important;
-	font-size: 2rem;
-}
 .Text_Left{
 	text-align: left;
 }
 .text-primary {
-    color: #06BBCC !important;
-}
-.navbar-light .navbar-nav .nav-link{
-    color: #181d38;
-    font-weight: 500;
-}
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active{
-    color: #06BBCC;
+    color: var(--primary) !important;
 }
 a{
-color: #181d38;
+color: var(--dark);
 font-weight: 600;
 font-size: 14px;
 }
 a:hover{
-	color: #06BBCC;
+	color: var(--primary);
 }
 
 .form-check-input[type=checkbox]:checked {
     background-image: none;
-    background-color: #06BBCC;
+    background-color: var(--primary);
 }
 
 .form-check-input:checked {
-    border-color:  #06BBCC;
+    border-color:  var(--primary);
 }
 
 .form-check-input[type=checkbox]:checked:focus {
-    background-color: #06BBCC;
+    background-color: var(--primary);
 }
 .form-check-input:checked:focus {
-    border-color: #06BBCC;
+    border-color: var(--primary);
 }
 .form-outline .form-control:focus~.form-label {
-    color: #06BBCC;
+    color: var(--primary);
 }
-/*p{
-	color: #181d38;
-}*/
 .Logo-Text{
 	font-weight: 700;
-    color: #181d38;
+    color: var(--dark);
     font-size: 30px;
 }
 .list-group-item.active{
-	background-color: #06BBCC;
-    border-color: #06BBCC;
+	background-color: var(--primary);
+    border-color: var(--primary);
 }
 
 /********** Template CSS **********/
-:root {
-    --primary: #06BBCC;
-    --light: #F0FBFC;
-    --dark: #181d38;
-}
 
 .fw-medium {
     font-weight: 600 !important;
@@ -143,7 +130,7 @@ a:hover{
     transition: .5s;
 
     color: #FFFFFF;
-    background-color: #06bbcc;
+    background-color: var(--primary);
     border-radius: 0px;
 }
 
@@ -151,10 +138,7 @@ a:hover{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     transition: .5s;
-    font-size: 18px;
-}
-.navBtn{
-    font-size: 18px;
+    font-size: 15px;
 }
 .adminBtn{
     font-size: .75rem;
@@ -163,7 +147,7 @@ a:hover{
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
-    background-color: #06bbcc;
+    background-color: var(--primary);
     border-radius: 0px;
 }
 
@@ -194,79 +178,16 @@ a:hover{
 }
 
 
-/*** Navbar ***/
-.navbar .dropdown-toggle::after {
-    border: none;
-    content: "\f107";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    vertical-align: middle;
-    margin-left: 8px;
-}
+/************* Navbar Start *****************/
 
-.navbar-light .navbar-nav .nav-link {
-    margin-right: 30px;
-    padding: 0px 0;
-    color: #FFFFFF;
-    font-size: 15px;
-    text-transform: uppercase;
-    outline: none;
-}
-
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
-}
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
-        margin-right: 0;
-        padding: 10px 0;
-    }
-
-    .navbar-light .navbar-nav {
-        border-top: 1px solid #EEEEEE;
-    }
+  
 }
-
-.navbar-light .navbar-brand,
-.navbar-light a.btn {
-    height: 75px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
-    font-weight: 500;
-}
-
-.navbar-light.sticky-top {
-    top: -100px;
-    transition: .5s;
-}
-
 @media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: block;
-        margin-top: 0;
-        opacity: 0;
-        visibility: hidden;
-        transition: .5s;
-    }
 
-    .navbar .dropdown-menu.fade-down {
-        top: 100%;
-        transform: rotateX(-75deg);
-        transform-origin: 0% 0%;
-    }
-
-    .navbar .nav-item:hover .dropdown-menu {
-        top: 100%;
-        transform: rotateX(0deg);
-        visibility: visible;
-        transition: .5s;
-        opacity: 1;
-    }
 }
+/************* Navbar End *****************/
 
 
 /*** Header carousel ***/
@@ -484,6 +405,30 @@ a:hover{
     border-color: var(--primary);
 }
 
+/* icons-header slider arrows Start*/
+.bi-chevron-left::before {
+    content: "\f284";
+}
+.bi-chevron-right::before {
+    content: "\f285";
+}
+[class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/* icons-header slider arrows End*/
+
 
 /*** Footer ***/
 .footer .btn.btn-social {
@@ -550,11 +495,14 @@ a:hover{
     padding-right: 0;
     border-right: none;
 }
+.bg-dark{
+    background-color: var(--dark)!important;
+}
 
 /**** extra code ****/
 /**** authenticator page ***/
 .Blue-Color{
-    color:#06BBCC;
+    color:var(--primary);
 }
 .Blue-Color:hover{
     color:#4f4f4f;
