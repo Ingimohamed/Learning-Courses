@@ -1,8 +1,8 @@
 :root{
     --mainTextColor:#52565b;
     --primary: #BA1C2B;
-    --light: #F0FBFC;
     --dark: #78030E; 
+    --light: #fdeef0; 
 }
 body {
     margin: 0;
