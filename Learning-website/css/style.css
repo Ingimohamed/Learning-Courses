@@ -179,13 +179,8 @@ a:hover{
 
 
 /************* Navbar Start *****************/
-
-
-@media (max-width: 991.98px) {
-  
-}
-@media (min-width: 992px) {
-
+.brand_Img{
+width: 11%;
 }
 /************* Navbar End *****************/
 
