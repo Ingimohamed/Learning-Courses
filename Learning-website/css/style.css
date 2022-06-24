@@ -520,3 +520,8 @@ width: 11%;
     border-bottom-left-radius: 60px;
 }
 /* About Us End*/
+/**contact us start*/
+.bg-primary{
+    background-color: var(--primary)!important;
+}
+/**contact us end*/
