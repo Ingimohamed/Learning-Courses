@@ -514,3 +514,14 @@ a:hover{
     height: 400px;
 }
 /* videos page end */
+
+/* About US  Start*/
+.aboutUs_img{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 89px;
+}
+.expertInstructor_img{
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+/* About Us End*/
