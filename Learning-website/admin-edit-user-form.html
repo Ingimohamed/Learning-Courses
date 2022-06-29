@@ -46,14 +46,13 @@
     </nav>
     <!-- Sidebar -->
 
-    <!-- Navbar -->
-   <!-- Navbar Start -->
+  <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
       <img class="brand_Img" height="30"
-       src="https://ams03pap001files.storage.live.com/y4muiRzns1DaWE87lJAP6rLC3STEEbACtlVEXf2jubTuSD3siKoIpyjKydmV_y071Ygz0UAts-zc0UHVKTEbrnrblSAjDBcY3pxpWa9ASWyR7vM09tufKih5W2fzeZk4m6q237yqJQfaUTPQud7m-O85pDaluYS0RHgyUZpYm9xiJCY06jC3N-BHMAfdyBd9nFEWLk9exvRoXkHa8laAS9hBw/profile%20mk-01.jpg?psid=1&width=582&height=582&cropMode=center" alt="logo">
-      <h2 class="m-0 text-primary">Akmal Academy</h2>
-  </a>
+      src="https://ams03pap001files.storage.live.com/y4muiRzns1DaWE87lJAP6rLC3STEEbACtlVEXf2jubTuSD3siKoIpyjKydmV_y071Ygz0UAts-zc0UHVKTEbrnrblSAjDBcY3pxpWa9ASWyR7vM09tufKih5W2fzeZk4m6q237yqJQfaUTPQud7m-O85pDaluYS0RHgyUZpYm9xiJCY06jC3N-BHMAfdyBd9nFEWLk9exvRoXkHa8laAS9hBw/profile%20mk-01.jpg?psid=1&width=582&height=582&cropMode=center" alt="logo">
+        <h2 class="m-0 text-primary">Akmal Academy</h2>
+    </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -76,37 +75,62 @@
     </div>
 </nav>
 <!-- Navbar End -->
-
   </header>
   <!--Main Navigation-->
 
-  <!--Main layout-->
-  <main style="margin-top: 50px">
-      <div class="container">
-         <h2 class="pb-4">Create New Playlist</h2>
-         <form action="">
-          <div class="row g-3 mb-5">
-              <div class="col-md-8">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="playlistName" placeholder="Playlist Name">
-                  <label for="playlistName">Playlist Name</label>
-              </div>
-            </div>
-              <div class="col-8">
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Playlist Describtion" id="describtion" style="height: 150px"></textarea>
-                    <label for="describtion">Playlist Describtion</label>
-                </div>
-            </div>
-              <div class="col-md-8 justify-content-center">
-                <button class="btn btn-primary w-100 py-3" type="submit">Add New Playlist</button>
+   <!--Main layout-->
+   <main style="margin-top: 50px">
+    <div class="container">
+       <h2 class="pb-4">Edit User</h2>
+       <form action="">
+        <div class="row g-3 mb-5">
+            <div class="col-md-8">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="userName" placeholder="Use Name" value="Ingi Mohamed">
+                <label for="playlistName">User Name</label>
             </div>
           </div>
-         </form>
-
+          <div class="col-md-8">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="email" placeholder="Your Email"value="ingimohamed2222@gmail.com">
+              <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="form-floating">
+            <input type="password" class="form-control" id="password" placeholder="Password" value="123456789">
+            <label for="Password">Create Password</label>
+        </div>
       </div>
-  </main>
-  <!--Main layout-->
+      <div class="col-md-8">
+       <p><strong>Courses Subscribe:</strong></p>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+          <label class="form-check-label" for="flexCheckDefault">Course One</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+          <label class="form-check-label" for="flexCheckDefault">Course Two</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+          <label class="form-check-label" for="flexCheckDefault">Course Three</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+          <label class="form-check-label" for="flexCheckDefault">Course Four</label>
+        </div>
+      </div>
+            
+            <div class="col-md-8 justify-content-center">
+              <button class="btn btn-primary w-100 py-3" type="submit">Save</button>
+          </div>
+        </div>
+       </form>
+
+    </div>
+</main>
+<!--Main layout-->
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
