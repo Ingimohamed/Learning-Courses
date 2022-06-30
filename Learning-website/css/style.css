@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600&display=swap');
 :root{
     --mainTextColor:#52565b;
-    --primary: #BA1C2B;
-    --dark: #78030E; 
-    --light: #fdeef0; 
+    --primary: #2977c9;
+    --primaryHover:#006097;
+    --dark: rgb(0 0 0 / 60%); 
+    --darkHover:rgb(0 0 0 / 90%);
+    --light: #eefdfc; 
+    --textColor:#8f5849;
 }
 body {
     margin: 0;
-    font-family: "Heebo",sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -18,10 +22,13 @@ body {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
-    font-family: "Nunito",sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
     line-height: 1.2;
     color: var(--dark);
+}
+#section_1{
+    background-color: #dfe5ec;
 }
 .Exclamation_Style{
     font-size: 5rem!important;
@@ -150,7 +157,7 @@ input[type="color"]:focus,
 
 /*** Button ***/
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
- font-family: 'Nunito', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 600;
     transition: .5s;
 
@@ -160,7 +167,7 @@ input[type="color"]:focus,
 }
 
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 600;
     transition: .5s;
     font-size: 15px;
@@ -573,4 +580,170 @@ width: 11%;
 
 .my-float{
 	margin-top:16px;
+}
+
+
+/* coverimage index page start */
+
+/* coverimage index page end */
+
+/* index navbar index start */
+.mr-0\.5 {
+    margin-right: 4px;
+}
+.after\:up-down-divider::after {
+    display: flex;
+    height: 100%;
+    width: 1px;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    --tw-content: "";
+    content: var(--tw-content);
+}
+.after\:\!h-\[37px\]::after {
+    content: var(--tw-content);
+    height: 37px !important;
+    margin: 0px 0px 0px 18px;
+}
+.WebsiteName{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 19px;
+}
+.items-center {
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.w-\[80px\] {
+    width: 90px;
+}
+.h-\[52px\] {
+    height: 52px;
+}
+.lazy-loaded {
+    opacity: 1;
+}
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+.w-3 {
+    width: 24px;
+}
+.h-3 {
+    height: 24px;
+}
+.flex {
+    display: flex;
+}
+.leading-regular {
+    line-height: 1.25;
+}
+.font-regular {
+    font-weight: 400;
+}
+.text-sm {
+    font-size: 14px;
+}
+.break-all {
+    word-break: break-all;
+}
+span{
+    outline: 0;
+}
+.gap-x-1 {
+    column-gap: 8px;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+.min-w-\[100px\] {
+    min-width: 100px;
+}
+.order-3 {
+    order: 3;
+}
+        /* join now btn start */
+        .btn-tertiary, .btn-tertiary:visited, .btn-tertiary:focus {
+            box-shadow: 0 0 0 1px var(--color-button-container-tertiary-border);
+            background-color: var(--color-button-container-tertiary);
+            color: var(--color-button-label-tertiary);
+        }
+        .btn-md, .btn-md:visited, .btn-md:focus {
+            cursor: pointer;
+            text-decoration-line: none;
+        }
+        .btn-md {
+            height: min-content;
+            min-height: 48px;
+            border-radius: 24px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        /* join now btn end */
+ /* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}       
+/* index navbar index end */
+
+/* start header */
+.center_Vertical{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header_Vector_Img{
+    width: 63%;
+    display: block;
+    margin-left: auto;
+}
+/* end header */
+.article_img{
+    display: inline-block
+}
+.div_img_parent{
+   
+    
+}
+.img_3{
+    position: absolute;
+    top:14px;
 }
