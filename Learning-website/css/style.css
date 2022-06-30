@@ -601,10 +601,19 @@ width: 11%;
     --tw-content: "";
     content: var(--tw-content);
 }
+
 .after\:\!h-\[37px\]::after {
     content: var(--tw-content);
     height: 37px !important;
     margin: 0px 0px 0px 18px;
+}
+@media only screen and (max-width: 991px) {
+    .after\:\!h-\[37px\]::after {
+        display: none;
+    }
+    .after\:up-down-divider::after{
+        display: none;
+    }
 }
 .WebsiteName{
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -739,9 +748,7 @@ span{
 .article_img{
     display: inline-block
 }
-.div_img_parent{
-   
-    
+.div_img_parent{  
 }
 .img_3{
     position: absolute;
