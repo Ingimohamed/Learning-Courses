@@ -31,6 +31,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 #section_1{
     background-color: var(--sectionBackgroundColor)
 }
+#section_3_aboutus{
+    background-color: #f7f7f7;
+}
 .Exclamation_Style{
     font-size: 5rem!important;
     font-weight: 900;
@@ -662,6 +665,8 @@ width: 11%;
 .aboutUs_img{
     border-top-right-radius: 12px;
     border-top-left-radius: 89px;
+    border: 1px solid #ededed;
+    box-shadow: 1px 2px 4px #c1daf5;
 }
 .expertInstructor_img{
     border-top-right-radius: 60px;
@@ -879,4 +884,16 @@ span{
 .img_3{
     position: absolute;
     top:14px;
+}
+.Instructor_Coverimg_about{
+    width: 91%;
+    display: block;
+    margin-left: auto;
+    border: 1px solid white;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    box-shadow: 1px 1px 19px lightblue;
+}
+.akmal_title_aboutus{
+    color: var(--primary);
 }
