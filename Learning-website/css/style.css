@@ -865,6 +865,11 @@ span{
     display: block;
     margin-left: auto;
 }
+.vector_Login{
+    width: 66%;
+    display: block;
+    margin-left: auto;
+}
 /* end header */
 .article_img{
     display: inline-block
