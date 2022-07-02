@@ -916,11 +916,3 @@ span{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
 }
-.aboutus-header-box{
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 700;
-    margin:10rem;
-    padding: 4rem 4rem;
-    background-color: white;
-    color: var(--mainTextColor);
-}
