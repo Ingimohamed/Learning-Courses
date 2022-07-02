@@ -32,7 +32,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     background-color: var(--sectionBackgroundColor)
 }
 #section_3_aboutus{
-    background-color: #f7f7f7;
+    background-color: white;
+}
+#section6{
+    background: #f7f7f7;
 }
 .Exclamation_Style{
     font-size: 5rem!important;
@@ -896,4 +899,28 @@ span{
 }
 .akmal_title_aboutus{
     color: var(--primary);
+}
+.authenticate_img{
+    width: 22%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Email_img{
+    width: 68%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mask-text{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+}
+.aboutus-header-box{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    margin:10rem;
+    padding: 4rem 4rem;
+    background-color: white;
+    color: var(--mainTextColor);
 }
