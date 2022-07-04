@@ -801,10 +801,6 @@ width: 11%;
 }
 
 
-/* coverimage index page start */
-
-/* coverimage index page end */
-
 /* index navbar index start */
 .mr-0\.5 {
     margin-right: 4px;
@@ -1010,6 +1006,16 @@ span{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
 }
+
+/* index page start*/
+.course-item.bg-light.h-100.card{
+box-shadow: none!important;
+border-radius: 0px!important;
+}
+.d-flex.border-top.card-footer{
+    padding: 0px !important;;
+}
+/* index page  end*/
 
 /* playlist page */
 .videos__container {
