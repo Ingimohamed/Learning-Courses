@@ -127,6 +127,23 @@ input[type="color"]:focus,
 	background-color: var(--primary);
     border-color: var(--primary);
 }
+.list-group-item:first-child{
+    min-width: auto;
+    border-bottom: 1px solid lightgray!important;
+}
+.list-group-item+.list-group-item{
+    border-bottom: 1px solid lightgray!important;
+}
+.list-group{
+    border: 1px solid lightgray;
+    line-height: 37px;
+    border-radius: 1.5rem;
+}
+.list-group-item-action:focus, .list-group-item-action:hover{
+    background-color: var(--primary);
+    color: white;
+}
+
 
 /********** Template CSS **********/
 
@@ -218,6 +235,11 @@ input[type="color"]:focus,
 
 
 /************* Navbar Start *****************/
+.sub-nav-title{
+    font-size: 12px;
+    display: block;
+    color: var(--primary);
+}
 .brand_Img{
 width: 11%;
 }
@@ -398,7 +420,7 @@ width: 11%;
 }
 .img-block-asp-om {
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 74%;
     display: block;
 }
 .loading-omd img {
@@ -455,6 +477,73 @@ width: 11%;
     transition: 0.5s;
     position: relative;
     text-transform: capitalize;
+}
+
+.single-post-om .single-img-om .img-block {
+    padding-bottom: 64%;
+    border-top-right-radius: 80px;
+    overflow: hidden;
+}
+.img-block-asp-om img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.single-post-om .single-img-om:after {
+    content: url("https://wagacademy.net/wp-content/themes/wag/assets/images/slider-pattern.png");
+    position: absolute;
+    top: -48px;
+    right: -48px;
+    z-index: -1;
+}
+.vertical-center{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.single-post-om .single-content-title-om .single-title-om {
+    font-size: 26px!important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    color: #0c3a4f;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.single-post-om .single-content-title-om .single-content-om p {
+    font-size: 16px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    color: #7b83a4;
+    margin-bottom: 30px;
+}
+.vh-53{
+    height: 53vh!important;
+}
+.single-service-page-om .single-post-om {
+    padding-bottom: 0;
+}
+.single-post-om .single-content-title-om .single-title-om {
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    color: #0c3a4f;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 /* end service section */
 
