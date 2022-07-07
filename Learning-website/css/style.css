@@ -1015,6 +1015,149 @@ border-radius: 0px!important;
 .d-flex.border-top.card-footer{
     padding: 0px !important;;
 }
+    /* start our courses section */
+    @media (min-width: 62.5em){
+         .tns-item {
+            padding-right: 20px;
+        }
+}
+@media (min-width: 37.5em){
+.tns-item {
+    padding-right: 20px;
+}
+}
+@media (min-width: 37.5em){
+.tns-item {
+    padding-right: 20px;
+}
+}
+@media (min-width: 37.5em){
+.tns-item {
+    padding-right: 20px;
+}
+}
+ .tns-item {
+    width: calc(6.25%);
+}
+ .tns-item {
+    font-size: 16px;
+}
+.tns-item {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+.tns-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.courses {
+    width: 100%;
+    background: #fff;
+    padding: 30px 30px 40px 30px;
+    margin-bottom: 20px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.tns-item {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+.courses .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.courses .text {
+    width: calc(100% - 80px);
+    padding-left: 20px;
+}
+.courses .text h2, .courses .text .h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.courses .text p.rate {
+    margin-bottom: 5px;
+}
+.courses .text p.rate span {
+    color: var(--primary);
+    font-size: 14px;
+}
+.fa-star:before {
+    content: "\f005";
+}
+.courses .text .author-wrap .img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.courses .text .author-wrap span.author {
+    font-weight: 500;
+    padding-left: 10px;
+}
+.courses .text p.lec {
+    font-weight: 500;
+    font-size: 13px;
+}
+.courses .course-price {
+    color: var(--primary);
+}
+.courses .course-price span {
+    color: var(--primary);
+    font-weight: 500;
+}
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid var(--primary) !important;
+    background: transparent !important;
+    color: var(--primary) !important;
+}
+.btn.btn-primary.btn-outline-primary:hover {
+    border: 1px solid transparent !important;
+    background: var(--primary) !important;
+    color: #fff !important;
+}
+    /* end our courses section */
+
+/* start reviews section */
+.testimony-wrap {
+    display: block;
+    position: relative;
+    background: white;
+    padding: 35px 30px 30px 30px !important;
+    width: 98%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 5px 12px -9px rgb(0 0 0 / 17%);
+    -moz-box-shadow: 0px 5px 12px -9px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 5px 12px -9px rgb(0 0 0 / 17%);
+}
+.testimony-wrap .user-img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+}
+.testimony-wrap .icon {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--primary);
+}
+.testimony-wrap .icon span {
+    color: #fff;
+}
+/* end reviews section */
+
 /* index page  end*/
 
 /* playlist page */
