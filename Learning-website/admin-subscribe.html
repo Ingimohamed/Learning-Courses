@@ -31,9 +31,9 @@
     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
       <div class="position-sticky">
         <div class="list-group list-group-flush mx-3 mt-4">
-          <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+          <div class="py-2 text-center list-group-item-title">
             <i class="fas fa-tachometer-alt fa-fw me-2"></i><span>Main dashboard</span>
-          </a>
+          </div>
           <a href="admin-playlist.html" class="list-group-item list-group-item-action py-2 ripple">
             <i class="fas fa-chalkboard-teacher fa-fw me-2"></i><span> Courses (Playlist) </span>
           </a>
@@ -160,12 +160,7 @@
   <!--Main layout-->
   <main style="margin-top: 90px">
       <div class="container">
-          <div class="row mb-5">
-            <div class="col-md-12">
-              <a href="admin-add-new-user-form.html"><button class="btn btn-primary adminBtn">Add New User</button></a>
-            </div>
-          </div>
-
+         
             <!-- search input row start -->
           <div class="row mb-5 flex-row-reverse">
             <div class="col-md-4">
@@ -186,11 +181,9 @@
         </div>
       </th>
       <th>Name</th>
-      <th>Title</th>
-      <th>Status</th>
-      <th>Position</th>
+      <th>Email</th>
       <th>Edit</th>
-      <th>Delete</th>
+      <th>Subscribe</th>
     </tr>
   </thead>
   <tbody>
@@ -202,39 +195,19 @@
       </th>
       <td>
         <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/8.jpg"
-              alt=""
-              style="width: 45px; height: 45px"
-              class="rounded-circle"
-              />
-          <div class="ms-3">
-            <p class="fw-bold mb-1">John Doe</p>
-            <p class="text-muted mb-0">john.doe@gmail.com</p>
+          <div>
+            <p class="fw-bold mb-0">John Doe</p>
           </div>
         </div>
       </td>
       <td>
-        <p class="fw-normal mb-1">Software engineer</p>
-        <p class="text-muted mb-0">IT department</p>
+        <p class="fw-normal mb-0">john@gmail.com</p>
       </td>
       <td>
-        <span class="badge badge-success rounded-pill d-inline">Active</span>
+        <a class="btn-link btn-rounded btn-sm" href="admin-edit-subscribe.html">Edit</a>
       </td>
-      <td>Senior</td>
       <td>
-        <button type="button" class="btn btn-link btn-sm btn-rounded">
-          Edit
-        </button>
-      </td>
-       <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Delete
-        </button>
+        <a class="btn-link btn-rounded btn-sm" href="admin-subscribe-subscribe.html">Subscribe</a>
       </td>
     </tr>
     <tr>
@@ -245,45 +218,19 @@
       </th>
       <td>
         <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/6.jpg"
-              class="rounded-circle"
-              alt=""
-              style="width: 45px; height: 45px"
-              />
-          <div class="ms-3">
-            <p class="fw-bold mb-1">Alex Ray</p>
-            <p class="text-muted mb-0">alex.ray@gmail.com</p>
+          <div>
+            <p class="fw-bold mb-0">Alex Ray</p>
           </div>
         </div>
       </td>
       <td>
-        <p class="fw-normal mb-1">Consultant</p>
-        <p class="text-muted mb-0">Finance</p>
+        <p class="fw-normal mb-0">alex@gmail.com</p>
       </td>
       <td>
-        <span class="badge badge-primary rounded-pill d-inline"
-              >Onboarding</span
-          >
+        <a class="btn-link btn-rounded btn-sm" href="admin-edit-subscribe.html">Edit</a>
       </td>
-      <td>Junior</td>
       <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Edit
-        </button>
-      </td>
-       <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Delete
-        </button>
+        <a class="btn-link btn-rounded btn-sm" href="admin-subscribe-subscribe.html">Subscribe</a>
       </td>
     </tr>
     <tr>
@@ -294,43 +241,19 @@
       </th>
       <td>
         <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/7.jpg"
-              class="rounded-circle"
-              alt=""
-              style="width: 45px; height: 45px"
-              />
-          <div class="ms-3">
-            <p class="fw-bold mb-1">Kate Hunington</p>
-            <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+          <div>
+            <p class="fw-bold mb-0">Kate Hunington</p>
           </div>
         </div>
       </td>
       <td>
-        <p class="fw-normal mb-1">Designer</p>
-        <p class="text-muted mb-0">UI/UX</p>
+        <p class="fw-normal mb-0">kate@gmail.com</p>
       </td>
       <td>
-        <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+        <a class="btn-link btn-rounded btn-sm" href="admin-edit-subscribe.html">Edit</a>
       </td>
-      <td>Senior</td>
       <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Edit
-        </button>
-      </td>
-       <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Delete
-        </button>
+        <a class="btn-link btn-rounded btn-sm" href="admin-subscribe-subscribe.html">Subscribe</a>
       </td>
     </tr>
   </tbody>
