@@ -159,50 +159,21 @@
 
    <!--Main layout-->
    <main style="margin-top: 90px">
-    <div class="container">
-       <h2 class="pb-4">Create New Nser</h2>
+    <div class="container px-5">
+       <h2 class="pb-4">Edit Subscribtion</h2>
        <form action="">
         <div class="row g-3 mb-5">
-            <div class="col-md-8">
-              <div class="form-floating">
-                <input type="text" class="form-control" id="userName" placeholder="Use Name">
-                <label for="playlistName">User Name</label>
-            </div>
+            <div class="col-md-6">
+              <div class="form-outline">
+                <input type="text" id="form12" class="form-control" value="Course one" />
+                <label class="form-label" for="form12">Playlist</label>
+              </div>
           </div>
-          <div class="col-md-8">
-            <div class="form-floating">
-              <input type="email" class="form-control" id="email" placeholder="Your Email">
-              <label for="email">Email</label>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="form-floating">
-            <input type="password" class="form-control" id="password" placeholder="Password">
-            <label for="Password">Create Password</label>
-        </div>
-      </div>
-      <div class="col-md-8">
-       <p><strong>Courses Subscribe:</strong></p>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-          <label class="form-check-label" for="flexCheckDefault">Course One</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-          <label class="form-check-label" for="flexCheckDefault">Course Two</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-          <label class="form-check-label" for="flexCheckDefault">Course Three</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-          <label class="form-check-label" for="flexCheckDefault">Course Four</label>
-        </div>
-      </div>
-            
-            <div class="col-md-8 justify-content-center">
-              <button class="btn btn-primary w-100 py-3" type="submit">Add New User</button>
+          <div class="col-md-6">
+            <input type="date" class="form-control py-y" id="date" aria-describedby="date" value="2022-01-31">
+        </div>            
+            <div class="col-md-4 justify-content-center">
+             <a class="text-center" href=""><button class="btn btn-primary" type="submit">Save</button></a>  
           </div>
         </div>
        </form>
