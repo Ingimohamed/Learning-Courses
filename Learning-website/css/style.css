@@ -1114,9 +1114,11 @@ border-radius: 0px!important;
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 5px;
+    text-align: left;
 }
 .courses .text p.rate {
     margin-bottom: 5px;
+    text-align: left;
 }
 .courses .text p.rate span {
     color: var(--primary);
@@ -1137,6 +1139,7 @@ border-radius: 0px!important;
 .courses .text p.lec {
     font-weight: 500;
     font-size: 13px;
+    text-align: left;
 }
 .courses .course-price {
     color: var(--primary);
