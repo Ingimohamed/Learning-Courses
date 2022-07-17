@@ -984,6 +984,16 @@ span{
     display: block;
     margin-left: auto;
 }
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+	.services_Vector_Img{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 37px;
+    }
+}
+
 .vector_Login{
     width: 66%;
     display: block;
@@ -1228,8 +1238,45 @@ border-radius: 0px!important;
   }
   
   .title a,
-  span {
+  .title span {
     text-decoration: none;
     color: rgb(96, 96, 96);
     font-size: 14px;
   }
+
+  /* Animate Text start */
+  .hidden {
+    opacity:0;
+  }
+  .console-container {
+   
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    height: 59px;
+    width: 246px;
+    display: block;
+    position: absolute;
+    color: white;
+    top: 0%;
+    bottom: 18%;
+    left: 43%;
+    right: 7%;
+    margin: auto;
+  }
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+  @media only screen and (min-width: 360px) and (max-width: 768px) {
+    .console-container {
+        top: 0%;
+        bottom: 8%;
+        left: 10%;
+        right: 7%;
+    }
+  }
+  /*Animate text End*/
