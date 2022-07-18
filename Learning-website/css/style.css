@@ -1132,7 +1132,7 @@ border-radius: 0px!important;
     height: 30px;
     border-radius: 50%;
 }
-.courses .text .author-wrap span.author {
+.courses .text .author-wrap span.author { 
     font-weight: 500;
     padding-left: 10px;
 }
