@@ -162,20 +162,10 @@
       <div class="container">
           <div class="row mb-5">
             <div class="col-md-12">
-              <a href="admin-add-new-video-form.html"><button class="btn btn-primary adminBtn">Add New Lesson</button></a>
+              <a href="admin-add-new-video.html"><button class="btn btn-primary adminBtn">Add New Lesson</button></a>
             </div>
           </div>
 
-            <!-- search input row start -->
-          <div class="row mb-5 flex-row-reverse">
-            <div class="col-md-4">
-              <div class="input-group">
-                <input type="text" id="search" onkeyup="searchFunction()" class="form-control" placeholder="Search for names.."/>
-                 <button type="button" class="btn btn-primary ripple-surface adminBtn" style="display:inline-block;">Search</button>
-              </div>
-            </div>
-          </div>
-          <!-- search input row end -->
 <!-- table -->
 <table class="table align-middle mb-0 bg-white" id="table">
   <thead class="bg-light">
@@ -185,10 +175,7 @@
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
         </div>
       </th>
-      <th>Name</th>
       <th>Title</th>
-      <th>Status</th>
-      <th>Position</th>
       <th>Edit</th>
       <th>Delete</th>
     </tr>
@@ -209,32 +196,15 @@
               class="rounded-circle"
               />
           <div class="ms-3">
-            <p class="fw-bold mb-1">John Doe</p>
-            <p class="text-muted mb-0">john.doe@gmail.com</p>
+            <p class="fw-bold m-0">John Doe</p>
           </div>
         </div>
       </td>
       <td>
-        <p class="fw-normal mb-1">Software engineer</p>
-        <p class="text-muted mb-0">IT department</p>
+        <a class="btn-link btn-rounded btn-sm" href="admin-edit-video.html">Edit</a>
       </td>
       <td>
-        <span class="badge badge-success rounded-pill d-inline">Active</span>
-      </td>
-      <td>Senior</td>
-      <td>
-        <button type="button" class="btn btn-link btn-sm btn-rounded">
-          Edit
-        </button>
-      </td>
-       <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Delete
-        </button>
+        <a class="btn-link btn-rounded btn-sm" href="#">Delete</a>
       </td>
     </tr>
     <tr>
@@ -252,38 +222,15 @@
               style="width: 45px; height: 45px"
               />
           <div class="ms-3">
-            <p class="fw-bold mb-1">Alex Ray</p>
-            <p class="text-muted mb-0">alex.ray@gmail.com</p>
+            <p class="fw-bold m-0">Alex Ray</p>
           </div>
         </div>
       </td>
       <td>
-        <p class="fw-normal mb-1">Consultant</p>
-        <p class="text-muted mb-0">Finance</p>
+        <a class="btn-link btn-rounded btn-sm" href="admin-edit-video.html">Edit</a>
       </td>
       <td>
-        <span class="badge badge-primary rounded-pill d-inline"
-              >Onboarding</span
-          >
-      </td>
-      <td>Junior</td>
-      <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Edit
-        </button>
-      </td>
-       <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Delete
-        </button>
+        <a class="btn-link btn-rounded btn-sm" href="#">Delete</a>
       </td>
     </tr>
     <tr>
@@ -301,36 +248,15 @@
               style="width: 45px; height: 45px"
               />
           <div class="ms-3">
-            <p class="fw-bold mb-1">Kate Hunington</p>
-            <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+            <p class="fw-bold m-0">Kate Hunington</p>
           </div>
         </div>
       </td>
       <td>
-        <p class="fw-normal mb-1">Designer</p>
-        <p class="text-muted mb-0">UI/UX</p>
+        <a class="btn-link btn-rounded btn-sm" href="admin-edit-video.html">Edit</a>
       </td>
       <td>
-        <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
-      </td>
-      <td>Senior</td>
-      <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Edit
-        </button>
-      </td>
-       <td>
-        <button
-                type="button"
-                class="btn btn-link btn-rounded btn-sm fw-bold"
-                data-mdb-ripple-color="dark"
-                >
-          Delete
-        </button>
+        <a class="btn-link btn-rounded btn-sm" href="#">Delete</a>
       </td>
     </tr>
   </tbody>

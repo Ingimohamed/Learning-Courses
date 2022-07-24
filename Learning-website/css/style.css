@@ -1085,14 +1085,25 @@ border-radius: 0px!important;
 }
 .courses {
     width: 100%;
+    height: 450px;
     background: #fff;
-    padding: 30px 30px 40px 30px;
+    padding: 0px;
+    border-radius: 0px;
     margin-bottom: 20px;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+.marginTop_Responsive-acca{
+    margin-top: 25%;
+}
+.marginTop_Responsive-ifrs{
+    margin-top: 18%;
+}
+.marginTop_Responsive-cma{
+    margin-top: 36%;
 }
 .tns-item {
     display: inline-block;

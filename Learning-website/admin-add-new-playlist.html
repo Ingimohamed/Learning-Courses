@@ -154,34 +154,40 @@
  <!-- Container wrapper -->
 </nav>
 <!-- Navbar -->
-
   </header>
-  <!--Main Navigation-->
+  <!-- Main Navigation -->
 
-  <!--Main layout-->
-  <main style="margin-top: 90px">
+    <!--Main layout-->
+    <main style="margin-top: 90px">
       <div class="container">
-         <h2 class="pb-4">Create New Playlist</h2>
-         <form action="">
-          <div class="row g-3 mb-5">
-              <div class="col-md-8">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="playlistName" placeholder="Playlist Name">
-                  <label for="playlistName">Playlist Name</label>
-              </div>
-            </div>
-              <div class="col-8">
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Playlist Describtion" id="describtion" style="height: 150px"></textarea>
-                    <label for="describtion">Playlist Describtion</label>
-                </div>
-            </div>
-              <div class="col-md-8 justify-content-center">
-                <button class="btn btn-primary w-100 py-3" type="submit">Add New Playlist</button>
-            </div>
+         <h2 class="pb-4">Add new playlist</h2>
+         <div class="row">
+          <div class="col-md-8">
+            <form>
+              <!-- Title input -->
+             <div class="form-outline mb-4">
+               <input type="text" id="title" class="form-control" />
+               <label class="form-label" for="title">Title</label>
+             </div>
+   
+              <!-- Picture input -->
+              <div class="form-outline mb-4">
+               <input type="text" id="picture" class="form-control" />
+               <label class="form-label" for="picture">Picture</label>
+             </div>
+   
+             <!-- Description input -->
+             <div class="form-outline mb-4">
+               <textarea class="form-control" id="description" rows="4"></textarea>
+               <label class="form-label" for="description">Description</label>
+             </div>
+   
+             <!-- Submit button -->
+             <button type="submit" class="btn btn-primary btn-block mb-4">Save</button>
+   
+            </form>
           </div>
-         </form>
-
+         </div>
       </div>
   </main>
   <!--Main layout-->

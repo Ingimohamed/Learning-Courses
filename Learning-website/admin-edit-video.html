@@ -31,9 +31,9 @@
     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
       <div class="position-sticky">
         <div class="list-group list-group-flush mx-3 mt-4">
-          <div class="py-2 text-center list-group-item-title">
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
             <i class="fas fa-tachometer-alt fa-fw me-2"></i><span>Main dashboard</span>
-          </div>
+          </a>
           <a href="admin-playlist.html" class="list-group-item list-group-item-action py-2 ripple active">
             <i class="fas fa-chalkboard-teacher fa-fw me-2"></i><span> Courses (Playlist) </span>
           </a>
@@ -155,34 +155,48 @@
 </nav>
 <!-- Navbar -->
   </header>
-  <!--Main Navigation-->
+  <!-- Main Navigation -->
 
-   <!--Main layout-->
-   <main style="margin-top: 90px">
-    <div class="container px-5">
-       <h2 class="pb-4">Edit Subscribtion</h2>
-       <form action="">
-        <div class="row g-3 mb-5">
-            <div class="col-md-6">
-              <select class="form-select form-control" aria-label="Default select example">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+    <!--Main layout-->
+    <main style="margin-top: 90px">
+      <div class="container">
+         <h2 class="pb-4">Edit Lesson</h2>
+         <div class="row">
+          <div class="col-md-8">
+            <form>
+              <!-- Title input -->
+             <div class="form-outline mb-4">
+               <input type="text" id="title" class="form-control" value="Web Design Lesson 1"/>
+               <label class="form-label" for="title">Title</label>
+             </div>
+   
+              <!-- Picture input -->
+              <div class="form-outline mb-4">
+               <input type="text" id="picture" class="form-control" value="http//www.image.png"/>
+               <label class="form-label" for="picture">Picture</label>
+             </div>
+   
+             <!-- Description input -->
+             <div class="form-outline mb-4">
+               <textarea class="form-control" id="description" rows="4">some text here (already filled)</textarea>
+               <label class="form-label" for="description">Description</label>
+             </div>
+   
+             <!-- Reference input -->
+             <div class="form-outline mb-4">
+               <input type="text" id="reference" class="form-control" value="reference here....."/>
+               <label class="form-label" for="reference">Reference</label>
+             </div>
+   
+             <!-- Submit button -->
+             <button type="submit" class="btn btn-primary btn-block mb-4">Save</button>
+   
+            </form>
           </div>
-          <div class="col-md-6">
-            <input type="date" class="form-control py-y" id="date" aria-describedby="date">
-        </div>            
-            <div class="col-md-4 justify-content-center">
-             <a class="text-center" href=""><button class="btn btn-primary" type="submit">Save</button></a>  
-          </div>
-        </div>
-       </form>
-
-    </div>
-</main>
-<!--Main layout-->
+         </div>
+      </div>
+  </main>
+  <!--Main layout-->
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
