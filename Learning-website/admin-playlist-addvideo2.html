@@ -18,8 +18,11 @@
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/admin.css" />
-   <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/admin.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/dropbox.css">
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
     crossorigin="anonymous"></script>
 </head>
@@ -160,119 +163,71 @@
   <!--Main layout-->
   <main style="margin-top: 90px">
       <div class="container">
-          <div class="row mb-5">
-            <div class="col-md-12">
-              <a href="admin-add-new-playlist.html"><button class="btn btn-primary adminBtn">Add new playlist</button></a>
+        <div class="row">
+            <div class="col-md-8 my-2">
+                <h4>Choose Video:</h4>
             </div>
-          </div>
-
-<!-- table -->
-<div class="table-responsive">
-<table class="table align-middle mb-0 bg-white table-striped table-hover table-borderless" id="table">
-  <thead class="bg-light">
-    <tr>
-      <th>Title</th>
-      <th>Add New Video</th>
-      <th>Actions</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/8.jpg"
-              alt=""
-              style="width: 45px; height: 45px"
-              class="rounded-circle"
-              />
-          <div class="ms-3">
-            <p class="fw-bold m-0">John Doe</p>
-          </div>
         </div>
-      </td>
-      <td>
-        <a class="btn-sm btn-rounded btn-link btn-success"  href="admin-playlist-addvideo.html" role="button">
-          <i class="fas fa-plus"></i>
-          Add
-        </a>
-      </td>
-      <td>
-        <a type="button" class="btn btn-link btn-rounded btn-sm fw-bold" data-mdb-ripple-color="dark" href="admin-edit-video.html">Edit</a>
-      </td>
-      <td>
-        <a class="btn-link btn-rounded btn-sm btn-danger" href="#">Delete</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/6.jpg"
-              class="rounded-circle"
-              alt=""
-              style="width: 45px; height: 45px"
-              />
-          <div class="ms-3">
-            <p class="fw-bold m-0">Alex Ray</p>
-          </div>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- dropBox -->
+                <div class="dropdown" data-control="checkbox-dropdown">
+                    <label class="dropdown-label" placeholder="Select video"> Select Videos </label>
+                    
+                    <div class="dropdown-list">
+                      <a href="#" data-toggle="check-all" class="dropdown-option">
+                        Check All  
+                      </a>
+                      
+                      <label class="dropdown-option">
+                        <input type="checkbox" name="dropdown-group" value="Selection 1" />
+                        Selection One
+                      </label>
+                      
+                      <label class="dropdown-option">
+                        <input type="checkbox" name="dropdown-group" value="Selection 2" />
+                        Selection Two
+                      </label>
+                      
+                      <label class="dropdown-option">
+                        <input type="checkbox" name="dropdown-group" value="Selection 3" />
+                        Selection Three
+                      </label>
+                      
+                      <label class="dropdown-option">
+                        <input type="checkbox" name="dropdown-group" value="Selection 4" />
+                        Selection Four
+                      </label>
+                      
+                      <label class="dropdown-option">
+                        <input type="checkbox" name="dropdown-group" value="Selection 5" />
+                        Selection Five
+                      </label>      
+                    </div>
+                  </div>
+                <!-- /dropBox -->
+            </div>
         </div>
-      </td>
-      <td>
-        <a class="btn-sm btn-rounded btn-link btn-success"  href="admin-playlist-addvideo.html" role="button">
-          <i class="fas fa-plus"></i>
-          Add
-        </a>
-      </td>
-      <td>
-        <a type="button" class="btn btn-link btn-rounded btn-sm fw-bold" data-mdb-ripple-color="dark" href="admin-edit-video.html">Edit</a>
-      </td>
-      <td>
-        <a class="btn-link btn-rounded btn-sm btn-danger" href="#">Delete</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div class="d-flex align-items-center">
-          <img
-              src="https://mdbootstrap.com/img/new/avatars/7.jpg"
-              class="rounded-circle"
-              alt=""
-              style="width: 45px; height: 45px"
-              />
-          <div class="ms-3">
-            <p class="fw-bold m-0">Kate Hunington</p>
-          </div>
+        <div style="height:50vh;"></div>
+        <div class="row">
+            <div class="col-md-6 justify-content-start">
+                <button class="btn btn-primary d-block me-auto w-50"> Save </button>
+            </div>
         </div>
-      </td>
-      <td>
-        <a class="btn-sm btn-rounded btn-link btn-success"  href="admin-playlist-addvideo.html" role="button">
-          <i class="fas fa-plus"></i>
-          Add
-        </a>
-      </td>
-      <td>
-        <a type="button" class="btn btn-link btn-rounded btn-sm fw-bold" data-mdb-ripple-color="dark" href="admin-edit-video.html">Edit</a>
-      </td>
-      <td>
-        <a class="btn-link btn-rounded btn-sm btn-danger" href="#">Delete</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<!-- table end -->
       </div>
   </main>
   <!--Main layout-->
+
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+
+   <!-- JavaScript Libraries -->
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  
   <!-- Custom scripts -->
   <script type="text/javascript" src="js/admin.js"></script>
-
-  <!-- input Search -->
-  <script type="text/javascript" src="js/inputSearch.js"></script>
+  <script type="text/javascript" src="js/dropbox.js"></script>
+  
 
 </body>
 
