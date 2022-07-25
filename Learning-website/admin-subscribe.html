@@ -28,7 +28,7 @@
   <!--Main Navigation-->
   <header>
     <!-- Sidebar -->
-    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white"> 
       <div class="position-sticky">
         <div class="list-group list-group-flush mx-3 mt-4">
           <div class="py-2 text-center list-group-item-title">
@@ -158,7 +158,7 @@
   <!--Main Navigation-->
 
   <!--Main layout-->
-  <main style="margin-top: 90px">
+  <main style="margin-top: 90px"> 
       <div class="container">
          
             <!-- search input row start -->
@@ -172,27 +172,18 @@
           </div>
           <!-- search input row end -->
 <!-- table -->
-<table class="table align-middle mb-0 bg-white" id="table">
+<div class="table-responsive">
+<table class="table align-middle mb-0 bg-white table-striped table-hover table-borderless" id="table">
   <thead class="bg-light">
     <tr>
-       <th scope="col">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-        </div>
-      </th>
       <th>Name</th>
       <th>Email</th>
-      <th>Edit</th>
+      <th>Actions</th>
       <th>Subscribe</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-        </div>
-      </th>
       <td>
         <div class="d-flex align-items-center">
           <div>
@@ -204,18 +195,13 @@
         <p class="fw-normal mb-0">john@gmail.com</p>
       </td>
       <td>
-        <a class="btn-link btn-rounded btn-sm" href="admin-edit-subscribe.html">Edit</a>
+        <a type="button" class="btn btn-link btn-rounded btn-sm fw-bold" data-mdb-ripple-color="dark" href="admin-edit-subscribe.html">Edit</a>
       </td>
       <td>
-        <a class="btn-link btn-rounded btn-sm" href="admin-subscribe-subscribe.html">Subscribe</a>
+        <a class="btn-link btn-rounded btn-sm btn-warning" href="admin-subscribe-subscribe.html">Subscribe</a>
       </td>
     </tr>
     <tr>
-       <th scope="row">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-        </div>
-      </th>
       <td>
         <div class="d-flex align-items-center">
           <div>
@@ -227,18 +213,13 @@
         <p class="fw-normal mb-0">alex@gmail.com</p>
       </td>
       <td>
-        <a class="btn-link btn-rounded btn-sm" href="admin-edit-subscribe.html">Edit</a>
+        <a type="button" class="btn btn-link btn-rounded btn-sm fw-bold" data-mdb-ripple-color="dark" href="admin-edit-subscribe.html">Edit</a>
       </td>
       <td>
-        <a class="btn-link btn-rounded btn-sm" href="admin-subscribe-subscribe.html">Subscribe</a>
+        <a class="btn-link btn-rounded btn-sm btn-warning" href="admin-subscribe-subscribe.html">Subscribe</a>
       </td>
     </tr>
     <tr>
-       <th scope="row">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-        </div>
-      </th>
       <td>
         <div class="d-flex align-items-center">
           <div>
@@ -250,14 +231,15 @@
         <p class="fw-normal mb-0">kate@gmail.com</p>
       </td>
       <td>
-        <a class="btn-link btn-rounded btn-sm" href="admin-edit-subscribe.html">Edit</a>
+        <a type="button" class="btn btn-link btn-rounded btn-sm fw-bold" data-mdb-ripple-color="dark" href="admin-edit-subscribe.html">Edit</a>
       </td>
       <td>
-        <a class="btn-link btn-rounded btn-sm" href="admin-subscribe-subscribe.html">Subscribe</a>
+        <a class="btn-link btn-rounded btn-sm btn-warning" href="admin-subscribe-subscribe.html">Subscribe</a>
       </td>
     </tr>
   </tbody>
 </table>
+</div>
 <!-- table end -->
       </div>
   </main>
