@@ -607,6 +607,7 @@ width: 11%;
     width: 0;
     /* background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
     z-index: 1;
+    display: none;
 }
 
 .testimonial-carousel::after {
@@ -618,6 +619,7 @@ width: 11%;
     width: 0;
     /* background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
     z-index: 1;
+    display: none;
 }
 
 @media (min-width: 768px) {
